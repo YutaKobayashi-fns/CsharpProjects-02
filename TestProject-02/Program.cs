@@ -2,73 +2,66 @@
 //Console.WriteLine("Hello, World!");
 
 using System;
-using System.IO.Pipelines;
-using System.Net.NetworkInformation;
+using System.Text.RegularExpressions;
 
-Random random = new Random();
-
-Console.WriteLine("Would you like to play? (Y/N)");
-if (ShouldPlay())
+string[] pettingZoo =
 {
-    PlayGame();
+    "alpacas", "capybaras", "chickens", "ducks", "emus", "geese",
+    "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws",
+    "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
+};
+
+PlanSchoolVisit("School A");
+PlanSchoolVisit("School B", 3);
+PlanSchoolVisit("School C", 2);
+
+void PlanSchoolVisit(string schoolName, int groups = 6)
+{
+    RandomizeAnimals();
+    string[,] group = AssignGroup(groups);
+    Console.WriteLine(schoolName);
+    PrintGroup(group);
 }
 
-bool ShouldPlay()
+void RandomizeAnimals()
 {
-    string? result;
+    Random random = new Random();
 
-    result = Console.ReadLine();
-
-    if (result != null)
+    for (int i = 0; i < pettingZoo.Length; i++)
     {
-        return (result.Trim().ToLower() == "y") ? true : false;
-    }
-    else
-    {
-        return false;
-    }
-}
+        int r = random.Next(i, pettingZoo.Length);
 
-void PlayGame()
-{
-    var play = true;
-
-    while (play)
-    {
-        var target = RandomTarget();
-        var roll = RandomRoll();
-
-        Console.WriteLine($"Roll a number greater than {target} to win!");
-        Console.WriteLine($"You rolled a {roll}");
-        Console.WriteLine(WinOrLose(target, roll));
-        Console.WriteLine("\nPlay again? (Y/N)");
-
-        play = ShouldPlay();
+        string temp = pettingZoo[i];
+        pettingZoo[i] = pettingZoo[r];
+        pettingZoo[r] = temp;
     }
 }
 
-int RandomTarget()
+string[,] AssignGroup(int groups = 6)
 {
-    return random.Next(1, 6);
-}
+    string[,] result = new string[groups, pettingZoo.Length / groups];
+    int start = 0;
 
-int RandomRoll()
-{
-    return random.Next(1, 7);
-}
-
-string WinOrLose(int target, int roll)
-{
-    string result;
-
-    if (roll >= target)
+    for (int i = 0; i < groups; i++)
     {
-        result = "You Win";
-    }
-    else
-    {
-        result = "You Lose";
+        for (int j = 0; j < result.GetLength(1); j++)
+        {
+            result[i, j] = pettingZoo[start++];
+        }
     }
 
     return result;
+}
+
+void PrintGroup(string[,] group)
+{
+    for(int i = 0; i< group.GetLength(0); i++)
+    {
+        Console.Write($"Group {i + 1}: ");
+        for(int j = 0; j < group.GetLength(1); j++)
+        {
+            Console.Write($"{group[i,j]}  ");
+        }
+        Console.WriteLine();
+    }
 }

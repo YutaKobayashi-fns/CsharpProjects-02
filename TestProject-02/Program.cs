@@ -4,6 +4,8 @@
 using System;
 using System.Text.RegularExpressions;
 
+int[] a = {0,0,0,0,0};
+Console.WriteLine($"{a.Length}");
 string[] pettingZoo =
 {
     "alpacas", "capybaras", "chickens", "ducks", "emus", "geese",

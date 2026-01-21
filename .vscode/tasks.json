@@ -84,6 +84,18 @@
                 "/consoleloggerparameters:Nosummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "GuidedProject",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/GuidedProject/Starter/Starter.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

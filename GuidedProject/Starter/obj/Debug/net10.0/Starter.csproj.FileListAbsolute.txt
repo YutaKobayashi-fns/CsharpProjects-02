@@ -1,0 +1,15 @@
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\bin\Debug\net10.0\Starter.exe
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\bin\Debug\net10.0\Starter.deps.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\bin\Debug\net10.0\Starter.runtimeconfig.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\bin\Debug\net10.0\Starter.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\bin\Debug\net10.0\Starter.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.AssemblyInfoInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.AssemblyInfo.cs
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.sourcelink.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\refint\Starter.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\Starter.genruntimeconfig.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\GuidedProject\Starter\obj\Debug\net10.0\ref\Starter.dll

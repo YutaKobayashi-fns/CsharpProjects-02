@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // ターゲット フレームワークを変更した場合は、プログラム パスを更新するようにしてください。
-            "program": "${workspaceFolder}/Debug101/bin/Debug/net10.0/Debug101.dll",
+            "program": "${workspaceFolder}/Exceptions101/bin/Debug/net10.0/Exceptions101.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Debug101",
+            "cwd": "${workspaceFolder}/Exceptions101",
             // 'console' フィールドの詳細については、https://aka.ms/VSCode-CS-LaunchJson-Console を参照してください
             "console":"integratedTerminal",
             "stopAtEntry": false

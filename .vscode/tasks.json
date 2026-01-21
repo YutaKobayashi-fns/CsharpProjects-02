@@ -72,6 +72,18 @@
                 "/consoleloggerparameters:Nosummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "ThrowExceptions101",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ThrowExceptions101/ThrowExceptions101.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

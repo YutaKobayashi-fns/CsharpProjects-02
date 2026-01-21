@@ -1,0 +1,65 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/CsharpProjects-02.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/CsharpProjects-02.sln",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/CsharpProjects-02.sln"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "buildDebug101",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Debug101/Debug101.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "buildTestProject-02",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/TestProject-02/TestProject-02.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

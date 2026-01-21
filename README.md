@@ -6,3 +6,4 @@ v2.0.3:　値を返すメソッド作成に関する[カリキュラム](https:/
 v2.0.4:　v2.0.3までの複合[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/guided-project-visit-petting-zoo/)  
 v2.0.5:　Learn4[まとめ](https://learn.microsoft.com/ja-jp/training/modules/challenge-project-create-mini-game/)  
 v2.0.6:　デバッグツールの実装に関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/implement-visual-studio-code-debugging-tools/)  
+v2.0.7:　例外処理の実装に関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/implement-exception-handling-c-sharp/)  

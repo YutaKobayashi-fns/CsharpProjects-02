@@ -1,0 +1,15 @@
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\bin\Debug\net10.0\Exceptions101.exe
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\bin\Debug\net10.0\Exceptions101.deps.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\bin\Debug\net10.0\Exceptions101.runtimeconfig.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\bin\Debug\net10.0\Exceptions101.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\bin\Debug\net10.0\Exceptions101.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.AssemblyInfoInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.AssemblyInfo.cs
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.csproj.CoreCompileInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.sourcelink.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\refint\Exceptions101.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\Exceptions101.genruntimeconfig.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Exceptions101\obj\Debug\net10.0\ref\Exceptions101.dll

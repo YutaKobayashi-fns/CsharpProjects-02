@@ -8,3 +8,4 @@ v2.0.5:　Learn4[まとめ](https://learn.microsoft.com/ja-jp/training/modules/c
 v2.0.6:　デバッグツールの実装に関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/implement-visual-studio-code-debugging-tools/)  
 v2.0.7:　例外処理の実装に関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/implement-exception-handling-c-sharp/)  
 v2.0.8:　例外の作成とスローに関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/create-throw-exceptions-c-sharp/)  
+v2.0.9:　v2.0.8までの複合[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/)  

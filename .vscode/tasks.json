@@ -96,6 +96,18 @@
                 "/consoleloggerparameters:Nosummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "ChallengeProject-02",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/ChallengeProject-02/Starter/Starter.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

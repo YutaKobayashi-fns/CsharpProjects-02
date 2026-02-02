@@ -20,6 +20,9 @@ expected.
 
 string? readResult = null;
 bool useTestData = false;
+// 
+const int TRANSACTIONS_MAX = 100;
+const int TESTVALUE_COUNT_MAX = 100;
 
 Console.Clear();
 
@@ -29,7 +32,20 @@ int registerCheckTillTotal = 0;
 // registerDailyStartingCash: $1 x 50, $5 x 20, $10 x 10, $20 x 5 => ($350 total)
 int[,] registerDailyStartingCash = new int[,] { { 1, 50 }, { 5, 20 }, { 10, 10 }, { 20, 5 } };
 
-int[] testData = new int[] { 6, 10, 17, 20, 31, 36, 40, 41 };
+// int[] testData = new int[] { 6, 10, 17, 20, 31, 36, 40, 41 };
+int[] testData = new int[100];
+
+// Make test data
+if (useTestData)
+{
+    Random randomValue = new Random();
+
+    for (int i = 0; i < TESTVALUE_COUNT_MAX; i++)
+    {
+        testData[i] = randomValue.Next(2, 50);
+    }
+}
+
 int testCounter = 0;
 
 LoadTillEachMorning(registerDailyStartingCash, cashTill);
@@ -40,15 +56,20 @@ registerCheckTillTotal = registerDailyStartingCash[0, 0] * registerDailyStarting
 LogTillStatus(cashTill);
 
 // display a message showing the amount of cash in the till
-Console.WriteLine(TillAmountSummary(cashTill));
+// Console.WriteLine(TillAmountSummary(cashTill));
+ConsoleLog(TillAmountSummary(cashTill));
+
 
 // display the expected registerDailyStartingCash total
-Console.WriteLine($"Expected till value: {registerCheckTillTotal}");
-Console.WriteLine();
+// Console.WriteLine($"Expected till value: {registerCheckTillTotal}");
+// Console.WriteLine();
+ConsoleLog($"Expected till value: {registerCheckTillTotal}");
+ConsoleLog();
 
 var valueGenerator = new Random((int)DateTime.Now.Ticks);
 
-int transactions = 100;
+// int transactions = 100;
+int transactions = TRANSACTIONS_MAX;
 
 if (useTestData)
 {
@@ -72,11 +93,16 @@ while (transactions > 0)
     int paymentTwenties = (itemCost < 20) ? 1 : 2;  // value is 1 when itemCost < 20, otherwise value is 2
 
     // display messages describing the current transaction
-    Console.WriteLine($"Customer is making a ${itemCost} purchase");
-    Console.WriteLine($"\t Using {paymentTwenties} twenty dollar bills");
-    Console.WriteLine($"\t Using {paymentTens} ten dollar bills");
-    Console.WriteLine($"\t Using {paymentFives} five dollar bills");
-    Console.WriteLine($"\t Using {paymentOnes} one dollar bills");
+    // Console.WriteLine($"Customer is making a ${itemCost} purchase");
+    // Console.WriteLine($"\t Using {paymentTwenties} twenty dollar bills");
+    // Console.WriteLine($"\t Using {paymentTens} ten dollar bills");
+    // Console.WriteLine($"\t Using {paymentFives} five dollar bills");
+    // Console.WriteLine($"\t Using {paymentOnes} one dollar bills");
+    ConsoleLog($"Customer is making a ${itemCost} purchase");
+    ConsoleLog($"\t Using {paymentTwenties} twenty dollar bills");
+    ConsoleLog($"\t Using {paymentTens} ten dollar bills");
+    ConsoleLog($"\t Using {paymentFives} five dollar bills");
+    ConsoleLog($"\t Using {paymentOnes} one dollar bills");
 
     try
     {
@@ -85,18 +111,34 @@ while (transactions > 0)
 
         // Backup Calculation - each transaction adds current "itemCost" to the till
         registerCheckTillTotal += itemCost;
+
+        // Current cashTill Check
+
+        // LogTillStatus(cashTill);
     }
     catch (InvalidOperationException e)
     {
-        Console.WriteLine($"Could not complete transaction: {e.Message}");
+        // Console.WriteLine($"Could not complete transaction: {e.Message}");
+        ConsoleLog($"Could not complete transaction: {e.Message}");
     }
 
-    Console.WriteLine(TillAmountSummary(cashTill));
-    Console.WriteLine($"Expected till value: {registerCheckTillTotal}");
-    Console.WriteLine();
+    // Console.WriteLine(TillAmountSummary(cashTill));
+    // Console.WriteLine($"Expected till value: {registerCheckTillTotal}");
+    // Console.WriteLine();
+    ConsoleLog(TillAmountSummary(cashTill));
+    ConsoleLog($"Expected till value: {registerCheckTillTotal}");
+    ConsoleLog($"Transaction No:[{TRANSACTIONS_MAX - transactions}]");
+    ConsoleLog();
 }
 
-Console.WriteLine("Press the Enter key to exit");
+// Console.WriteLine("Press the Enter key to exit");
+ConsoleLog("Press the Enter key to exit");
+using (var writer = new StreamWriter("consoleLog.txt", append: true))
+{
+    writer.WriteLine("============================================================");
+    writer.WriteLine("");
+}
+
 do
 {
     readResult = Console.ReadLine();
@@ -115,10 +157,10 @@ static void LoadTillEachMorning(int[,] registerDailyStartingCash, int[] cashTill
 
 static void MakeChange(int cost, int[] cashTill, int twenties, int tens = 0, int fives = 0, int ones = 0)
 {
-    cashTill[3] += twenties;
-    cashTill[2] += tens;
-    cashTill[1] += fives;
-    cashTill[0] += ones;
+    // cashTill[3] += twenties;
+    // cashTill[2] += tens;
+    // cashTill[1] += fives;
+    // cashTill[0] += ones;
 
     int amountPaid = twenties * 20 + tens * 10 + fives * 5 + ones;
     int changeNeeded = amountPaid - cost;
@@ -126,53 +168,109 @@ static void MakeChange(int cost, int[] cashTill, int twenties, int tens = 0, int
     if (changeNeeded < 0)
         throw new InvalidOperationException("InvalidOperationException: Not enough money provided to complete the transaction.");
 
-    Console.WriteLine("Cashier prepares the following change:");
+    cashTill[3] += twenties;
+    cashTill[2] += tens;
+    cashTill[1] += fives;
+    cashTill[0] += ones;
+
+    // Console.WriteLine("Cashier prepares the following change:");
+    ConsoleLog("Cashier prepares the following change:");
+
+    // Cash count by provided
+    int cashCountTwenties = 0;
+    int cashCountTens = 0;
+    int cashCountFives = 0;
+    int cashCountOnes = 0;
 
     while ((changeNeeded > 19) && (cashTill[3] > 0))
     {
         cashTill[3]--;
         changeNeeded -= 20;
-        Console.WriteLine("\t A twenty");
+        // Cash Count
+        cashCountTwenties++;
+
+        // Console.WriteLine("\t A twenty");
+        ConsoleLog("\t A twenty");
     }
 
     while ((changeNeeded > 9) && (cashTill[2] > 0))
     {
         cashTill[2]--;
         changeNeeded -= 10;
-        Console.WriteLine("\t A ten");
+        // Cash Count
+        cashCountTens++;
+
+        // Console.WriteLine("\t A ten");
+        ConsoleLog("\t A ten");
     }
 
     while ((changeNeeded > 4) && (cashTill[1] > 0))
     {
         cashTill[1]--;
         changeNeeded -= 5;
-        Console.WriteLine("\t A five");
+        // Cash Count
+        cashCountFives++;
+
+        // Console.WriteLine("\t A five");
+        ConsoleLog("\t A five");
     }
 
     while ((changeNeeded > 0) && (cashTill[0] > 0))
     {
         cashTill[0]--;
         changeNeeded -= 1;
-        Console.WriteLine("\t A one");
+        // Cash Count
+        cashCountOnes++;
+
+        // Console.WriteLine("\t A one");
+        ConsoleLog("\t A one");
     }
 
     if (changeNeeded > 0)
-        throw new InvalidOperationException("InvalidOperationException: The till is unable to make change for the cash provided.");
+    {
+        // Return of changes
+        cashTill[3] += cashCountTwenties;
+        cashTill[2] += cashCountTens;
+        cashTill[1] += cashCountFives;
+        cashTill[0] += cashCountOnes;
+        // Repayment
+        cashTill[3] -= twenties;
+        cashTill[2] -= tens;
+        cashTill[1] -= fives;
+        cashTill[0] -= ones;
 
+        throw new InvalidOperationException("InvalidOperationException: The till is unable to make change for the cash provided.");
+    }
 }
 
 static void LogTillStatus(int[] cashTill)
 {
-    Console.WriteLine("The till currently has:");
-    Console.WriteLine($"{cashTill[3] * 20} in twenties");
-    Console.WriteLine($"{cashTill[2] * 10} in tens");
-    Console.WriteLine($"{cashTill[1] * 5} in fives");
-    Console.WriteLine($"{cashTill[0]} in ones");
-    Console.WriteLine();
+    // Console.WriteLine("The till currently has:");
+    // Console.WriteLine($"{cashTill[3] * 20} in twenties");
+    // Console.WriteLine($"{cashTill[2] * 10} in tens");
+    // Console.WriteLine($"{cashTill[1] * 5} in fives");
+    // Console.WriteLine($"{cashTill[0]} in ones");
+    // Console.WriteLine();
+    ConsoleLog("The till currently has:");
+    ConsoleLog($"{cashTill[3] * 20} in twenties");
+    ConsoleLog($"{cashTill[2] * 10} in tens");
+    ConsoleLog($"{cashTill[1] * 5} in fives");
+    ConsoleLog($"{cashTill[0]} in ones");
+    ConsoleLog();
 }
 
 static string TillAmountSummary(int[] cashTill)
 {
     return $"The till has {cashTill[3] * 20 + cashTill[2] * 10 + cashTill[1] * 5 + cashTill[0]} dollars";
 
+}
+
+static void ConsoleLog(string message = "")
+{
+    Console.WriteLine(message);
+
+    using (var writer = new StreamWriter("consoleLog.txt", append: true))
+    {
+        writer.WriteLine(message);
+    }
 }

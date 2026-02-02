@@ -1,0 +1,1269 @@
+The till currently has:
+100 in twenties
+100 in tens
+100 in fives
+50 in ones
+
+The till has 350 dollars
+Expected till value: 350
+
+Customer is making a $44 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 350 dollars
+Expected till value: 350
+Transaction No:[1]
+
+Customer is making a $13 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 363 dollars
+Expected till value: 363
+Transaction No:[2]
+
+Customer is making a $45 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 363 dollars
+Expected till value: 363
+Transaction No:[3]
+
+Customer is making a $28 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 391 dollars
+Expected till value: 391
+Transaction No:[4]
+
+Customer is making a $14 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 405 dollars
+Expected till value: 405
+Transaction No:[5]
+
+Customer is making a $30 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+The till has 435 dollars
+Expected till value: 435
+Transaction No:[6]
+
+Customer is making a $26 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 461 dollars
+Expected till value: 461
+Transaction No:[7]
+
+Customer is making a $44 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 461 dollars
+Expected till value: 461
+Transaction No:[8]
+
+Customer is making a $21 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A twenty
+The till has 482 dollars
+Expected till value: 482
+Transaction No:[9]
+
+Customer is making a $17 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 499 dollars
+Expected till value: 499
+Transaction No:[10]
+
+Customer is making a $3 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 502 dollars
+Expected till value: 502
+Transaction No:[11]
+
+Customer is making a $47 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 502 dollars
+Expected till value: 502
+Transaction No:[12]
+
+Customer is making a $14 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 516 dollars
+Expected till value: 516
+Transaction No:[13]
+
+Customer is making a $39 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 555 dollars
+Expected till value: 555
+Transaction No:[14]
+
+Customer is making a $18 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 573 dollars
+Expected till value: 573
+Transaction No:[15]
+
+Customer is making a $9 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 582 dollars
+Expected till value: 582
+Transaction No:[16]
+
+Customer is making a $7 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 589 dollars
+Expected till value: 589
+Transaction No:[17]
+
+Customer is making a $20 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A twenty
+The till has 609 dollars
+Expected till value: 609
+Transaction No:[18]
+
+Customer is making a $48 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 609 dollars
+Expected till value: 609
+Transaction No:[19]
+
+Customer is making a $15 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 624 dollars
+Expected till value: 624
+Transaction No:[20]
+
+Customer is making a $33 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 657 dollars
+Expected till value: 657
+Transaction No:[21]
+
+Customer is making a $20 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A twenty
+The till has 677 dollars
+Expected till value: 677
+Transaction No:[22]
+
+Customer is making a $22 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 699 dollars
+Expected till value: 699
+Transaction No:[23]
+
+Customer is making a $49 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 699 dollars
+Expected till value: 699
+Transaction No:[24]
+
+Customer is making a $49 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 699 dollars
+Expected till value: 699
+Transaction No:[25]
+
+Customer is making a $39 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 738 dollars
+Expected till value: 738
+Transaction No:[26]
+
+Customer is making a $36 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 774 dollars
+Expected till value: 774
+Transaction No:[27]
+
+Customer is making a $15 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 789 dollars
+Expected till value: 789
+Transaction No:[28]
+
+Customer is making a $2 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 791 dollars
+Expected till value: 791
+Transaction No:[29]
+
+Customer is making a $34 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 825 dollars
+Expected till value: 825
+Transaction No:[30]
+
+Customer is making a $35 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 860 dollars
+Expected till value: 860
+Transaction No:[31]
+
+Customer is making a $29 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 889 dollars
+Expected till value: 889
+Transaction No:[32]
+
+Customer is making a $45 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 889 dollars
+Expected till value: 889
+Transaction No:[33]
+
+Customer is making a $11 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+The till has 900 dollars
+Expected till value: 900
+Transaction No:[34]
+
+Customer is making a $24 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A five
+	 A five
+	 A one
+The till has 924 dollars
+Expected till value: 924
+Transaction No:[35]
+
+Customer is making a $17 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 941 dollars
+Expected till value: 941
+Transaction No:[36]
+
+Customer is making a $26 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A five
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 967 dollars
+Expected till value: 967
+Transaction No:[37]
+
+Customer is making a $12 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+The till has 979 dollars
+Expected till value: 979
+Transaction No:[38]
+
+Customer is making a $37 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+	 A one
+The till has 1016 dollars
+Expected till value: 1016
+Transaction No:[39]
+
+Customer is making a $42 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1016 dollars
+Expected till value: 1016
+Transaction No:[40]
+
+Customer is making a $16 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1016 dollars
+Expected till value: 1016
+Transaction No:[41]
+
+Customer is making a $40 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+The till has 1056 dollars
+Expected till value: 1056
+Transaction No:[42]
+
+Customer is making a $9 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A five
+	 A five
+	 A one
+	 A one
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[43]
+
+Customer is making a $14 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[44]
+
+Customer is making a $34 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[45]
+
+Customer is making a $25 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[46]
+
+Customer is making a $49 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[47]
+
+Customer is making a $3 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[48]
+
+Customer is making a $47 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1065 dollars
+Expected till value: 1065
+Transaction No:[49]
+
+Customer is making a $41 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+The till has 1106 dollars
+Expected till value: 1106
+Transaction No:[50]
+
+Customer is making a $27 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1106 dollars
+Expected till value: 1106
+Transaction No:[51]
+
+Customer is making a $45 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1106 dollars
+Expected till value: 1106
+Transaction No:[52]
+
+Customer is making a $40 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+The till has 1146 dollars
+Expected till value: 1146
+Transaction No:[53]
+
+Customer is making a $5 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1146 dollars
+Expected till value: 1146
+Transaction No:[54]
+
+Customer is making a $36 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1146 dollars
+Expected till value: 1146
+Transaction No:[55]
+
+Customer is making a $25 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1146 dollars
+Expected till value: 1146
+Transaction No:[56]
+
+Customer is making a $41 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[57]
+
+Customer is making a $45 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[58]
+
+Customer is making a $29 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[59]
+
+Customer is making a $24 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[60]
+
+Customer is making a $44 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[61]
+
+Customer is making a $12 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[62]
+
+Customer is making a $43 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[63]
+
+Customer is making a $36 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[64]
+
+Customer is making a $31 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[65]
+
+Customer is making a $23 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[66]
+
+Customer is making a $4 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[67]
+
+Customer is making a $4 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[68]
+
+Customer is making a $17 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[69]
+
+Customer is making a $2 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[70]
+
+Customer is making a $32 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[71]
+
+Customer is making a $44 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[72]
+
+Customer is making a $32 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[73]
+
+Customer is making a $7 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[74]
+
+Customer is making a $49 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[75]
+
+Customer is making a $42 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[76]
+
+Customer is making a $12 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[77]
+
+Customer is making a $9 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[78]
+
+Customer is making a $17 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[79]
+
+Customer is making a $25 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+	 A one
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1187 dollars
+Expected till value: 1187
+Transaction No:[80]
+
+Customer is making a $40 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+The till has 1227 dollars
+Expected till value: 1227
+Transaction No:[81]
+
+Customer is making a $35 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+The till has 1262 dollars
+Expected till value: 1262
+Transaction No:[82]
+
+Customer is making a $18 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+	 A one
+The till has 1280 dollars
+Expected till value: 1280
+Transaction No:[83]
+
+Customer is making a $10 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1280 dollars
+Expected till value: 1280
+Transaction No:[84]
+
+Customer is making a $9 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A five
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1280 dollars
+Expected till value: 1280
+Transaction No:[85]
+
+Customer is making a $40 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[86]
+
+Customer is making a $39 purchase
+	 Using 2 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A ten
+	 A five
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[87]
+
+Customer is making a $42 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[88]
+
+Customer is making a $25 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[89]
+
+Customer is making a $48 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[90]
+
+Customer is making a $26 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[91]
+
+Customer is making a $31 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[92]
+
+Customer is making a $33 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[93]
+
+Customer is making a $14 purchase
+	 Using 1 twenty dollar bills
+	 Using 1 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+	 A ten
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[94]
+
+Customer is making a $48 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 1 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[95]
+
+Customer is making a $5 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[96]
+
+Customer is making a $46 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Could not complete transaction: InvalidOperationException: Not enough money provided to complete the transaction.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[97]
+
+Customer is making a $23 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 1 one dollar bills
+Cashier prepares the following change:
+	 A one
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[98]
+
+Customer is making a $32 purchase
+	 Using 2 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[99]
+
+Customer is making a $12 purchase
+	 Using 1 twenty dollar bills
+	 Using 0 ten dollar bills
+	 Using 0 five dollar bills
+	 Using 0 one dollar bills
+Cashier prepares the following change:
+Could not complete transaction: InvalidOperationException: The till is unable to make change for the cash provided.
+The till has 1320 dollars
+Expected till value: 1320
+Transaction No:[100]
+
+Press the Enter key to exit
+============================================================
+

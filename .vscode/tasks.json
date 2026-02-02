@@ -108,6 +108,18 @@
                 "/consoleloggerparameters:Nosummary"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "Seikabutsu",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Seikabutsu/ToshoKanri/ToshoKanri.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:Nosummary"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

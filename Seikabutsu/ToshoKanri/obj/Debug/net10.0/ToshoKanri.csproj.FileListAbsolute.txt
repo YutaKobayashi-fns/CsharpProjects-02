@@ -1,0 +1,15 @@
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\bin\Debug\net10.0\ToshoKanri.exe
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\bin\Debug\net10.0\ToshoKanri.deps.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\bin\Debug\net10.0\ToshoKanri.runtimeconfig.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\bin\Debug\net10.0\ToshoKanri.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\bin\Debug\net10.0\ToshoKanri.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.AssemblyInfoInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.AssemblyInfo.cs
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.csproj.CoreCompileInputs.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.sourcelink.json
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\refint\ToshoKanri.dll
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.pdb
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ToshoKanri.genruntimeconfig.cache
+C:\Users\小林 祐太\Documents\kobayashi\C-sharp\CsharpProjects-02\Seikabutsu\ToshoKanri\obj\Debug\net10.0\ref\ToshoKanri.dll

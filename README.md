@@ -10,3 +10,4 @@ v2.0.7:　例外処理の実装に関する[カリキュラム](https://learn.mi
 v2.0.8:　例外の作成とスローに関する[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/create-throw-exceptions-c-sharp/)  
 v2.0.9:　v2.0.8までの複合[カリキュラム](https://learn.microsoft.com/ja-jp/training/modules/guided-project-debug-handle-exceptions-c-sharp-console-application/)  
 v2.1.0:　Learn5[まとめ](https://learn.microsoft.com/ja-jp/training/modules/challenge-project-debug-c-sharp-console-application/)  
+v2.1.1:　成果物格納(Seikabutsu以下)  
